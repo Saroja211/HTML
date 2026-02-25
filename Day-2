@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <fieldset>
+    <table>
+        <form action="">
+    <tr>
+        <td> <label for="img">upload the image</label></td>
+        <td> <input type="image" id="img" required src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXes8hhgeBB-_lz5HQuQcc3mBZJ7LvAYO8A&s" height="90" width="90"></td>
+    </tr>
+    <tr>
+        <td> <label for="file">upload the file</label></td>
+        <td> <input type="file" id="file" required></td>
+    </tr>
+    <tr>
+        <td> <label for="lang"> languages</label></td>
+        <td>
+             <input type="checkbox"  id="lang" name="languages" value="HTML" required>HTML
+              <input type="checkbox"  id="lang" name="languages1" value="CSS" required>CSS
+               <input type="checkbox"  id="lang" name="languages2" value="JS" required>JS
+        </td>
+    </tr>
+    <tr>
+        <td> <label for="gender">gender</label></td>
+        <td> 
+            <input type="radio" name="gender" value="male">male
+             <input type="radio" name="gender" value="female">female
+              <input type="radio" name="gender" value="others">others
+        </td>
+    </tr>
+    <tr>
+        <td> <label for="">select the range</label></td>
+        <td> <input type="range" name="" id="" required></td>
+    </tr>
+    <tr>
+        <td> <label for="fruits">fruits</label>  </td>
+        <td>
+            <input type="text" list="fruits">
+            <datalist id="fruits">
+                <option value="apple"></option>
+                 <option value="mango"></option>
+                  <option value="orange"></option>
+            </datalist>
+        </td>
+    </tr>
+
+
+    </form>
+    </table>
+    </fieldset>
+ </body>
+ </html>
