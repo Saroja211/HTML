@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table in html</title>
+</head>
+<body>
+   
+    <thead>
+        <center> 
+            <h1>Table in html</h1>
+        </center>
+      
+    </thead>
+    <hr>
+    <center>
+        <table border="1px" cellspacing="50px" cellpadding="50px" >
+        <tr bgcolor="yellow" >
+          <th>id</th>
+          <th>name</th>
+          <th>age</th>
+          <th>place</th>
+        </tr>
+        <tr  bgcolor="pink" >
+            <td>01</td>
+            <td rowspan="2">kavana</td>
+            <td colspan="3">21</td>
+            <!-- <td>haveri</td> -->
+        </tr>
+        <tr  bgcolor="pink">
+            <td>02</td>
+            <!-- <td>mala</td> -->
+            <td>21</td>
+            <td>kalburgi</td>
+        </tr>
+        <tr bgcolor="pink">
+            <td>03</td>
+            <td >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmEXXW_2IgRhb3bJtRmynok_rANjbvWBBDtG3zCSkKj2j4c61zpw3dBXiN6dMQ4dSEJ0FFEoMPlsXIfZf-Lc5J4g8SrM9zUcFQLk6GaVE&s=10" alt="" height="90px" width="90px">
+            </td>
+            <td>23</td>
+            <td>ballary</td>
+        </tr>
+
+    </table>
+    </center>
+
+   
+</body>
+</html>
