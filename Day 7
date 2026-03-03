@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           h1{
+            text-align: center;
+           }
+           body{
+            background-color: lightsalmon;
+           }
+           hr{
+            height: 10px;
+            background-color: black;
+           }
+           a:link{
+            color: blueviolet;
+           }
+           a:visited{
+            color: chocolate;
+           }
+           a:hover{
+            color: darkred;
+           }
+           a:active{
+            color: aqua;
+           }
+           body>div:nth-child(5){
+            background-color: aqua;
+           }
+           body>div:last-child{
+            background-color: chartreuse;
+           }
+           body>div:nth-child(7){
+            background-color: cadetblue;
+           }
+           
+    </style>
+</head>
+<body>
+    <h1>pseudoclass in CSS</h1>
+    <a href="https://www.myntra.com">myntra</a>
+    <hr>
+    <div>come on</div>
+    <div>lets have a fun
+        <div>enjoy
+            <div>comeeee fastttt</div>
+        </div>
+    </div>
+    <div>do it</div>
+    <div>come fast</div>
+    <div>hurrayyyy</div>
+</body>
+</html>
